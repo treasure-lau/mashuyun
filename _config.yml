@@ -1,0 +1,5 @@
+title: 麻树云
+url: "https://treasure-lau.github.io"
+baseurl: "/mashuyun"
+markdown: kramdown
+exclude: [README.md, public-manifest.json]

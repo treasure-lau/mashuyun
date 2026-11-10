@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>{{ page.title | escape }} · 麻树云</title>
+  <link rel="stylesheet" href="{{ '/versions/mashuyun-20261110-r1/assets/style.css' | relative_url }}">
+</head>
+<body>
+  <a class="skip-link" href="#content">跳转到正文</a>
+  <header class="site-header">
+    <a class="brand" href="{{ '/versions/mashuyun-20261110-r1/' | relative_url }}">麻树云</a>
+    <span>客户部署文档</span>
+    <span class="version">版本 {{ page.release_id | escape }}</span>
+  </header>
+  <div class="document-layout">
+    <nav class="navigation" aria-label="部署文档">
+      <p>开始使用</p>
+      <a href="{{ '/versions/mashuyun-20261110-r1/' | relative_url }}">部署概览</a>
+      <a href="{{ '/versions/mashuyun-20261110-r1/quick-start/' | relative_url }}">快速开始</a>
+      <a href="{{ '/versions/mashuyun-20261110-r1/requirements/' | relative_url }}">环境准备</a>
+      <a href="{{ '/versions/mashuyun-20261110-r1/downloads/' | relative_url }}">可信下载</a>
+      <p>部署方式</p>
+      <a href="{{ '/versions/mashuyun-20261110-r1/combined/' | relative_url }}">同机部署</a>
+      <a href="{{ '/versions/mashuyun-20261110-r1/split/' | relative_url }}">分机部署</a>
+      <a href="{{ '/versions/mashuyun-20261110-r1/fileservice/' | relative_url }}">仅文件服务</a>
+      <p>持续运行</p>
+      <a href="{{ '/versions/mashuyun-20261110-r1/maintenance/' | relative_url }}">维护与恢复</a>
+    </nav>
+    <main id="content" tabindex="-1">{{ content }}</main>
+  </div>
+  <footer>麻树云 · 构建与文件保留在客户侧</footer>
+</body>
+</html>

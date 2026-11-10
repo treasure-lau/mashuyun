@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "repository": "treasure-lau/mashuyun",
+  "currentRelease": "mashuyun-20261110-r1",
+  "versions": [
+    "mashuyun-20261110-r1"
+  ],
+  "entries": {
+    "README.md": "67bf0c024fc7b1c38b8dda77acf61b5e63a64de6adf501a09bfa4a18252c7d32",
+    "_config.yml": "0d4576e4e6faea332f370fcf66b2d7f789f2a6333d36a0f4a64f71cae7d53d54",
+    "_layouts/customer-mashuyun-20261110-r1.html": "5af08ff12716655de690af29c80a6f94b6b060ff3db0c2242423b639a8f28735",
+    "index.md": "4af84ce2b91a170c3173f947b59cb609473c7b5e32d26e9ab6ccffbea98266ac",
+    "versions/mashuyun-20261110-r1/assets/style.css": "502806261cc144ed01751bb541432a058e0b8cb42a917a6eda05b34f309daeb7",
+    "versions/mashuyun-20261110-r1/index.md": "fba5819d6e8c7d794dc6d34df4cc9d1a6e15727baf0b59ae162a230bdc2a81c6",
+    "versions/mashuyun-20261110-r1/release.json": "b84e9394870d84097cc5cd2170c1a22e0800bc77a29da65f8cf4293432e2e3a9",
+    "versions/mashuyun-20261110-r1/仅文件服务.md": "f2640233c65854b0f5cb3b8c6941875c50b23d8ba5e5a6794a7531af501221b2",
+    "versions/mashuyun-20261110-r1/分机部署.md": "3f6e72ac0ba9b6b1b6c96e271e6ae6628f7a8650cd2895d8604fb3bb7231253c",
+    "versions/mashuyun-20261110-r1/可信下载.md": "3b2f3d6e0efa7075703b0f37c889c1ca86927d563cb63ee01731f3c01cadc8a7",
+    "versions/mashuyun-20261110-r1/同机部署.md": "df207f39ec2bfbb7ce80aa57efa3b496202812e1447e8d6567983ca8ca19497d",
+    "versions/mashuyun-20261110-r1/快速开始.md": "961e4a2fb16b5d3c8ae2375236363eaef01d7d27d1a273429ff17d43fb221f64",
+    "versions/mashuyun-20261110-r1/环境准备.md": "36a8cfe5b7ddc53d4af53ef330081c57bfd0b3a10bd450e091ba1393c4e54ee2",
+    "versions/mashuyun-20261110-r1/维护与恢复.md": "c9da9ff98d1a880986fa246ad212a530f19bc478b31d822993cf32a54bebde92"
+  }
+}

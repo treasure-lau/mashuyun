@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "mashuyun-20261110-r1",
+  "documentationUrl": "https://treasure-lau.github.io/mashuyun/versions/mashuyun-20261110-r1/",
+  "fileserviceImage": {
+    "ref": "ghcr.io/treasure-lau/mashuyun-fileservice:mashuyun-20261110-r1",
+    "digest": "sha256:92a6e297e155c623c444482c79c1191470f156db380cbb9de77e5312befb2ad9"
+  },
+  "artifacts": [
+    {
+      "platform": "darwin/arm64",
+      "roles": [
+        "WORKER",
+        "FILESERVICE",
+        "COMBINED"
+      ],
+      "capabilities": [
+        "NODE_READINESS_V1",
+        "FILESERVICE_TRIAL_V1",
+        "FILE_ONBOARDING_V1"
+      ],
+      "archive": {
+        "url": "https://github.com/treasure-lau/mashuyun/releases/download/mashuyun-20261110-r1/mashuyun-node-mashuyun-20261110-r1-darwin-arm64.tar.gz",
+        "sha256": "2a8e84b403e31f3b09c3bff50b7b1254be0669b5bbae2d251a0fe5039418c358"
+      },
+      "verifier": {
+        "url": "https://github.com/treasure-lau/mashuyun/releases/download/mashuyun-20261110-r1/mashuyun-verifier-mashuyun-20261110-r1-darwin-arm64",
+        "sha256": "c5c55f7756270bee77872ce0b91f7acfad82081f5eb7c0544f778a837e62ab1e"
+      }
+    },
+    {
+      "platform": "linux/amd64",
+      "roles": [
+        "WORKER",
+        "FILESERVICE",
+        "COMBINED"
+      ],
+      "capabilities": [
+        "NODE_READINESS_V1",
+        "FILESERVICE_TRIAL_V1",
+        "FILE_ONBOARDING_V1"
+      ],
+      "archive": {
+        "url": "https://github.com/treasure-lau/mashuyun/releases/download/mashuyun-20261110-r1/mashuyun-node-mashuyun-20261110-r1-linux-amd64.tar.gz",
+        "sha256": "95367523a9ccda91618f7b5112225ff20eb7334b76cab523803978e34d8ba660"
+      },
+      "verifier": {
+        "url": "https://github.com/treasure-lau/mashuyun/releases/download/mashuyun-20261110-r1/mashuyun-verifier-mashuyun-20261110-r1-linux-amd64",
+        "sha256": "5d99292f5fd442195d1f7c7d1fcef72dbaaf2be6dbc51ce6cbb1836af54e34e6"
+      }
+    },
+    {
+      "platform": "linux/arm64",
+      "roles": [
+        "FILESERVICE"
+      ],
+      "capabilities": [
+        "NODE_READINESS_V1",
+        "FILESERVICE_TRIAL_V1",
+        "FILE_ONBOARDING_V1"
+      ],
+      "archive": {
+        "url": "https://github.com/treasure-lau/mashuyun/releases/download/mashuyun-20261110-r1/mashuyun-node-mashuyun-20261110-r1-linux-arm64.tar.gz",
+        "sha256": "f4aab1ae53dae5a3875b8dc2a74af8b4a5568971fbb491da21bc6f5675ab01e1"
+      },
+      "verifier": {
+        "url": "https://github.com/treasure-lau/mashuyun/releases/download/mashuyun-20261110-r1/mashuyun-verifier-mashuyun-20261110-r1-linux-arm64",
+        "sha256": "519a3a5d60c3c4727839c8ce8a2f2351fe7b0b8791b8e1ff64f69890a8282418"
+      }
+    }
+  ]
+}
